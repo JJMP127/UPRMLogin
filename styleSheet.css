@@ -1,0 +1,128 @@
+body, html{
+    height: 100%;
+}
+.headerName{
+    margin-left: 10px;
+    color: white;
+}
+.navbar{
+    background-color: rgb(50,50,50);
+    border-bottom: 2px solid black;
+}
+#signinBtn{
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+#signinBtn:hover{
+    color: limegreen;
+}
+.LoginBox h1{
+    text-transform: uppercase;
+    color: white;
+}
+.LoginBox{
+    background: rgba(46, 49, 49, 0.9);
+    border-radius: 50px;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.LoginBox input[type="text"], .LoginBox input[type="password"]{
+    color: white;
+    background: none;
+    border: 2px solid limegreen;
+    width: 250px;
+    border-radius: 50px;
+    margin: 40px auto;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    outline: none;
+    transition: .25s;
+}
+.LoginBox button[type="submit"]{
+    background: none;
+    font-weight: bold;
+    color: white;
+    width: 150px;
+    border: 2px solid dodgerblue;
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 14px;
+    text-align: center;
+    display: block;
+    transition: 0.25s;
+}
+.LoginBox input[type="text"]:focus, .LoginBox input[type="password"]:focus{
+    width: 350px;
+    border-color: white;
+}
+.LoginBox button[type="submit"]:hover{
+    width: 200px;
+    color: black;
+    background-color: dodgerblue;
+}
+.LoginBox button[type="submit"]:focus{
+    outline: none;
+}
+.termsWarning{
+    color: white;
+    margin-top: 70px;
+}
+h4{
+    font-weight: bold;
+}
+.leftColumn{
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    left: 50px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+.titleBox{
+    margin-top: 30px;
+}
+.pageTitle{
+    font-size: 70px;
+    font-weight: bold;
+    color: limegreen;
+}
+.pageSubtitle{
+    font-size: 50px;
+    font-weight: bold;
+    color: gray;
+}
+.leftText{
+    margin-top: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.main{
+    background-image: url("images/UPRMPortico.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-link{
+    color: white;
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(81,81,81);
+}
+footer{
+    background: limegreen;
+    border-top: 2px solid green;
+}
