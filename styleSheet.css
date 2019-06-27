@@ -84,7 +84,7 @@ h4{
     height: 100%;
     text-align: center;
     padding: 10px;
-    position: relative;
+    position: absolute;
     left: 50px;
     border-left: 2px solid gray;
     border-right: 2px solid gray;
